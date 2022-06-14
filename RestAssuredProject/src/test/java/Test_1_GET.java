@@ -6,7 +6,9 @@ import io.restassured.response.Response;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-public class Test01_Get {
+//REST Assured API testing Beginner Tutorial | Part 2
+//Youtube" https://www.youtube.com/watch?v=mkIliGAePBM
+public class Test_1_GET {
 	
 	@Test
 	void test01() {
