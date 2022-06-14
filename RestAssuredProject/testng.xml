@@ -1,0 +1,13 @@
+//From: https://www.youtube.com/watch?v=AWbwhkDceB0
+//REST Assured API testing Beginner Tutorial | Part 5
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="userId" value="4"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="datadriven.DataDrivenExamples4DELETE"/>
+    </classes>
+  </test> 
+</suite> 
